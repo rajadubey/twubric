@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+}
+.main-container{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+.controllers{
+  display: flex;
+  width: 100%;
+  height: 15%;
+  background: #ffffff;
+  font-size: 22px;
+}
+.score-sort{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+.score-sort button{
+  width: 20%;
+  height: 170%;
+  font-weight: bold;
+  outline: none;
+  background: none;
+  border: 1px solid #818181;
+  cursor: pointer;
+}
+.score-sort button:hover{
+  background: #1ec614;
+}
+.join-sort{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.join-sort span{
+  display: flex;
+  justify-content: flex-start;
+}
+.join-sort div{
+  display: flex;
+  width: 100%;
+  margin-right: 10px;
+}
+.join-sort-dates{
+  width: 100%;
+  height: 60%;
+}
+.join-sort-dates span{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #a0a0a0;
+}
+.join-sort-dates span input{
+  width: 55%;
+}
+
+
+.users{
+  border-top: 1px solid #9b8181;
+  display: flex;
+  width: 100%;
+  height: 85%;
+  flex-flow: row wrap;
+
+  overflow: auto;
+}

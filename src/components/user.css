@@ -1,0 +1,98 @@
+.user-card{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    margin: 2%;
+    border: 1px solid #535353;
+}
+.user-card:hover{
+    border-radius: 5px;
+    transform: scale(1.1);
+    background: #fff;
+    box-shadow:
+            0 3.4px 2.7px rgba(0, 0, 0, 0.022),
+            0 8.7px 6.9px rgba(0, 0, 0, 0.031),
+            0 17.7px 14.2px rgba(0, 0, 0, 0.039),
+            0 36.5px 29.2px rgba(0, 0, 0, 0.048),
+            0 100px 80px rgba(0, 0, 0, 0.07);
+    transition: transform 100ms ease-in-out;
+}
+.user-info{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+.user-info span{
+    margin: 0 5px 0 5px;
+}
+
+.user-body{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+}
+.user-criteria{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85%;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+}
+.user-criteria div{
+    display: flex;
+    width: 33.3%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid black;
+}
+.user-criteria div:last-child{
+    border-right: none;
+}
+
+.user-control{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45%;
+}
+.join-date{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 100%;
+    border-right: 1px solid black;
+    font-size: 14px;
+    font-weight: bold;
+}
+.remove-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 70%;
+}
+.remove-btn button{
+    border: none;
+    outline: none;
+    background: none;
+    margin-right: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
